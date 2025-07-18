@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "glfw>=2.9.0",
     "numpy>=2.3.1",
+    "pillow>=11.3.0",
     "pymunk>=7.1.0",
     "pyopenal>=0.7.11a1",
     "pyopengl>=3.1.9",
