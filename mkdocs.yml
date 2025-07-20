@@ -1,0 +1,42 @@
+site_name: Vortex2D Engine Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Enable Markdown extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+# Extra features
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourrepo
+  # Enable emoji support
+  emoji: true
+
