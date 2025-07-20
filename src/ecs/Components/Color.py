@@ -1,4 +1,4 @@
-from base import Component
+from ecs.Components.base import Component
 
 class Color(Component):
     def __init__(self, value):
